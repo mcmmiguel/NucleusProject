@@ -170,3 +170,27 @@ img {
         align-items: center;
     }
 }
+
+.listado {
+
+}
+.listado__elementos {
+    box-shadow: 0px 0px 15px 3px rgb(0 0 0 / .15);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    transition: transform 300ms;
+}
+.listado__elementos:hover {
+    transform: scale(1.1);
+}
+
+.listado__heading {
+    font-size: 3rem;
+    color: var(--primario);
+    text-align: center;
+    margin: 0;
+}
+.listado__texto {
+    margin: 0;
+    font-size: 2rem;
+}
