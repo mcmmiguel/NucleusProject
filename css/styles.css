@@ -157,3 +157,16 @@ img {
     margin: 0 auto;
     width: 90%;
 }
+
+.nucleus__grid {
+    display: flex;
+    flex-direction: column-reverse;
+}
+@media (min-width: 768px) {
+    .nucleus__grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 5rem;
+        align-items: center;
+    }
+}
